@@ -1,0 +1,2 @@
+C:\Users\bruno\OneDrive\Documentos\Financial\FinFacil\vueapp\obj\Debug\FinFacil.App.esproj.SuggestedBindingRedirects.cache
+C:\Users\bruno\OneDrive\Documentos\Financial\FinFacil\vueapp\obj\Debug\FinFacil.App.esproj.CoreCompileInputs.cache
