@@ -1,15 +1,24 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ButtonComponent title="testando" @clicked="this.showMsg = true"/>
+  <TextFormComponent title="Nome" />
+  <p v-if="showMsg">Botão foi clicado</p>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ButtonComponent from '@/components/ButtonComponent.vue'
+import TextFormComponent from '@/components/TextFormComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ButtonComponent,
+    TextFormComponent
+  },
+  data() {
+    return {
+      showMsg: false
+    }
   }
 }
 </script>
